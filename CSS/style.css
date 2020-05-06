@@ -1,0 +1,276 @@
+*{ 
+     margin:0px;
+	 padding:0px;
+	 
+}
+body
+{
+	
+	 background-color:white;
+}
+h1
+{
+	 height:60px;
+     line-height:50px;
+	 color : white;
+	 width:100%;
+	 background-color: black;
+	 border-bottom : 3px solid white;
+	 border-top : 3px solid white;
+	 text-transform:upper-alpha; 
+     text-shadow : 5px 10px 5px gray;
+	 text-align:center;
+}
+.menu
+{
+	 width:100%; 
+	 height:45px; 
+	 line-height:45px; 
+	 background:orange;
+	 border-bottom : 3px solid white;
+ }  
+.menu a
+{
+	 color:white; 
+     text-align: right-side;
+	 margin-left : 40px;
+	 text-decoration:none; 
+	 font-size: 14px;
+}
+.menu a:hover
+{
+     color:red;
+	 text-decoration:underline;
+ }
+.imgc
+{
+	 
+	 position:relative;
+	 width:100%;
+	 height:1000px;
+	 overflow:hidden;
+	 border-bottom:3px solid white;
+    }
+.galimg
+{
+	  border: 3px solid white;
+}
+.galname
+{
+	 margin-bottom:10px;
+}	
+.gallary
+{
+	 margin:10px;
+	 padding:10px;
+}
+.img
+{
+	 position:relative;
+	 padding-left:7px;
+	 padding-right:7px;
+	 padding-bottom:10px;
+	 padding-top:10px;
+	 width:400px;
+	 height:400px;
+	 overflow:hidden;
+	 transtion:0.5s;
+	 object-fit:cover;	
+}
+.img:hover
+{
+	 z-index:1;
+     transform: scale(1.1);
+	 box-shadow:0 25px 40px rgba(0,0,0,.5);
+}
+.proname
+{
+	
+}
+.divban
+{ 
+	 width:100%;
+	 height:450px;
+	 border:2px solid black;
+}
+.ban
+{
+     width:100%;
+	 height:450px;
+}
+.divbanner
+{ 
+	 width:100%;
+	 height:300px;
+	 border:2px solid black;
+}
+.bannerone
+{
+     width:100%;
+	 height:300px;
+}
+
+.menuproduct
+{
+	 width:100%; 
+	 height:45px; 
+	 line-height:45px; 
+	 background:orange;
+	 border-bottom:3px solid gray;
+	 border-top:3px solid gray;
+ }  
+.menuproduct a
+{
+	 color:white; 
+	 text-align: right-side;
+	 margin-left : 40px;
+	 text-decoration:none; 
+	 font-size: 14px;
+		
+}
+.menuproduct a:hover
+{
+     color:red;
+	 text-decoration:underline;
+}
+.profan 
+{
+	 position:relative;
+	 display:flex;
+	 flex-wrap: wrap;
+	 margin:10px;
+	 margin-right:10px;
+	 padding-top:20px;
+     width:100%; 
+	 height:200px;
+	 border:3px solid white ;
+}	
+.profan .box
+{
+	 position:relative;
+	 overflow:hidden;
+	 transtion:0.5s;
+	 border:2px solid gray;
+}
+.profan .box:hover
+{
+	 z-index:1;
+     transform: scale(1.1);
+	 box-shadow:0 25px 40px rgba(0,0,0,.5);
+}
+.profan .box .imgbox:before 
+{
+	 content:'';
+	 position:absolute;
+	 top:0;
+	 left:0;
+	 width:100%; 
+	 height:100%;
+	 z-index:1;
+	 background:linear-gradient(180deg,#f00,#000);
+	 mix-blend-mode:multiply;
+	 opacity:0;
+	 transtion:0.5s;
+	 
+}
+.profan .box:hover .imgbox:before
+{
+	 opacity:1;
+}
+.profan .box .content
+{
+	 position:absolute;
+	 top:0;
+	 left:0;
+	 width:100%; 
+	 height:100%;
+	 z-index:2;
+	 display:flex;
+	 padding:20px;
+	 align-items:flex-end;
+}
+.profan .box .content h2
+{
+	 color:#fff;
+	 transtion:0.5s;
+	 text-transform:uppercase;
+	 margin-bottom:50px;
+	 font-size:20px;
+	 transform: translateX(10000px);
+}
+.profan .box:hover .content h2
+{
+	 transform: translateX(0);
+	 transition-delay:0.6s;
+}
+.profan .imgfan
+{
+     margin-left:20px;
+	 width:160px; 
+	 height:190px;
+}
+.logobox .logo
+{
+	 width:100px;
+     height:100px; 
+	 margin:10px;
+	 padding:10px;
+	 margin-left:100px;
+	 margin-top:50px;
+}
+.footer .foot1
+{
+	 width:100%;
+	 height:150px;
+	 background-color:blue;
+}
+.one 
+{
+	 color:white;
+	 margin-left:140px;
+	 margin-top:10px;
+	 text-align:center-left;
+     padding-top:50px;
+}
+.two
+{
+	 color:white;
+	 margin-left:140px;
+	 margin-top:10px;
+	 text-align:center-left;
+     padding-top:6px;
+}
+.contactlast
+{
+	 width:100%;
+	 height:500px;
+	 margin:2px;
+	 border:2px solid black;
+	 display:wrap;
+	 position:inline;
+}
+.contactlast .simple
+{
+     width:100%;
+	 height:450px;
+	 display:inline-block;
+	 margin-left:10px;
+	 margin-top:20px;
+}
+.contactlast .simple h3,p
+{
+	 margin-left:50px;
+	 margin-top:60px;
+	 margin-bottom:20px;
+	 margin-right:20px;
+}
+.setupdiv
+{
+	 width:100%;
+	 height:200px;
+}
+.setupdiv .setupban
+{
+	 width:100%;
+	 height:200px;
+}
